@@ -108,14 +108,22 @@ events that already ended, and generic tobacco/vape/hookah content.
    new report with message `Cigar events scan <YYYY-MM-DD>: N new, M updated`,
    then push to the branch given in the run prompt.
 
-8. **Final message — this is the daily email.** The run's final message is
-   emailed to the user every day, so write it as the email body, in Markdown:
-   - A one-line headline: `N new · M updated · T upcoming`
-   - **🆕 New today**: title — date — venue, city — link (or "Nothing new today.")
-   - **Updated**: title — what changed (omit the section if none)
-   - **Next 14 days**: title — date/time — venue, city — link
-   - **All upcoming events**: the full list from `EVENTS.md`, grouped by month,
-     one line each: date — title — venue, city — price — link. Mark
-     tentative events "(tentative)" and cancelled ones "CANCELLED".
-   - A closing line linking to `EVENTS.md` on GitHub.
-   Always send the full list, even on days with nothing new.
+8. **Email the list via Gmail.** Use the Gmail connector to send an email
+   to **edpustilnik@gmail.com**:
+   - **Subject:** `South Florida Cigar Events — <Weekday, Month D>: N new`
+   - **Body** (HTML if the tool supports it, otherwise plain text):
+     - A one-line headline: `N new · M updated · T upcoming`
+     - **🆕 New today**: title — date — venue, city — link (or "Nothing new today.")
+     - **Updated**: title — what changed (omit the section if none)
+     - **Next 14 days**: title — date/time — venue, city — link
+     - **All upcoming events**: the full list from `EVENTS.md`, grouped by
+       month, one line each: date — title — venue, city — price — link.
+       Mark tentative events "(tentative)" and cancelled ones "CANCELLED".
+     - A closing line linking to `EVENTS.md` on GitHub.
+   - Always send the full list, even on days with nothing new.
+   - If the Gmail tools can only create drafts, create the draft addressed to
+     edpustilnik@gmail.com and say so in the final message. If Gmail is not
+     available at all, say so plainly at the top of the final message.
+
+9. **Final message.** End with the same headline and the "New today" list, plus
+   whether the Gmail email was sent.

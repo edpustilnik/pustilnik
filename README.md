@@ -19,7 +19,7 @@ A Claude Code Routine fires every morning. Each run:
 4. Runs `python3 scripts/render.py` to rebuild [`EVENTS.md`](EVENTS.md) and
    [`ARCHIVE.md`](ARCHIVE.md).
 5. Writes a daily report to [`reports/`](reports/) and commits everything.
-6. Emails you the full list, with new finds at the top.
+6. Emails the full list via Gmail, with new finds at the top.
 
 ## Changing it
 
