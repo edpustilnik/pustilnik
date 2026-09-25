@@ -108,7 +108,14 @@ events that already ended, and generic tobacco/vape/hookah content.
    new report with message `Cigar events scan <YYYY-MM-DD>: N new, M updated`,
    then push to the branch given in the run prompt.
 
-8. **Final message.** End the run with a short summary: counts of new and
-   updated events, the new events as a bullet list (title — date — city), and
-   the next few upcoming events. This summary is what the user reads in the
-   notification, so keep it scannable.
+8. **Final message — this is the daily email.** The run's final message is
+   emailed to the user every day, so write it as the email body, in Markdown:
+   - A one-line headline: `N new · M updated · T upcoming`
+   - **🆕 New today**: title — date — venue, city — link (or "Nothing new today.")
+   - **Updated**: title — what changed (omit the section if none)
+   - **Next 14 days**: title — date/time — venue, city — link
+   - **All upcoming events**: the full list from `EVENTS.md`, grouped by month,
+     one line each: date — title — venue, city — price — link. Mark
+     tentative events "(tentative)" and cancelled ones "CANCELLED".
+   - A closing line linking to `EVENTS.md` on GitHub.
+   Always send the full list, even on days with nothing new.
