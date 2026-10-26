@@ -27,3 +27,11 @@ A Claude Code Routine fires every morning. Each run:
 - **Schedule, or pausing it** — edit the Routine at claude.ai/code (Routines).
 - **Run it manually** — `python3 scripts/render.py` re-renders the list from the JSON;
   a full scan is triggered by running the Routine on demand.
+
+## Routine setup (required for daily runs to save)
+
+The Routine must have **edpustilnik/pustilnik attached as a repository** with
+push access (Routine → edit → Repositories). Without it the run can search but
+can't save anything; AGENT.md now makes such a run say so at the top of its
+email and include the found events as JSON so nothing is lost. If pushing to the
+working branch is refused, the run pushes `cigar-scan/<date>` and opens a PR.

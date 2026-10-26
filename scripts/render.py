@@ -50,6 +50,25 @@ def validate(events):
     return errors
 
 
+def possible_duplicates(events):
+    """Pairs that look like the same event under different ids (warn, don't fail)."""
+    warnings = []
+    by_url, by_slot = {}, {}
+    for ev in events:
+        if ev.get("status") == "cancelled":
+            continue
+        url = (ev.get("url") or "").rstrip("/").lower()
+        slot = (ev.get("start_date"), (ev.get("venue") or ev.get("city") or "").strip().lower())
+        for key, index in ((url, by_url), (slot if slot[0] else None, by_slot)):
+            if not key:
+                continue
+            if key in index:
+                warnings.append(f"{ev['id']} may duplicate {index[key]} (same {'url' if index is by_url else 'date and venue'})")
+            else:
+                index[key] = ev["id"]
+    return warnings
+
+
 def end_of(ev):
     return parse_date(ev.get("end_date")) or parse_date(ev.get("start_date"))
 
@@ -100,6 +119,8 @@ def main():
     if errors:
         print("Validation errors:", *errors, sep="\n  ")
         sys.exit(1)
+    for warning in possible_duplicates(events):
+        print(f"Warning: {warning}")
 
     today = datetime.now(ZoneInfo("America/New_York")).date()
     upcoming = sorted([e for e in events if not end_of(e) or end_of(e) >= today], key=sort_key)
