@@ -1,6 +1,6 @@
 # South Florida Cigar Events
 
-_Last updated Monday, October 26, 2026 · 5 upcoming · Miami-Dade, Broward, Palm Beach & the Keys_
+_Last updated Monday, October 26, 2026 · 6 upcoming · Miami-Dade, Broward, Palm Beach & the Keys_
 
 🆕 = found in today's scan. Past events move to [ARCHIVE.md](ARCHIVE.md); daily scan notes are in [reports/](reports/).
 
@@ -31,3 +31,9 @@ _Last updated Monday, October 26, 2026 · 5 upcoming · Miami-Dade, Broward, Pal
 |---|---|---|---|---|---|
 | Fri Mar 19, 2027<br>7:00 PM | [Red Meat Lover's Dinner with Steve Saka (Great Smoke 2027)](https://www.smokeinn.com/RMLC-Pre-Event-Dinner-2027-IN-PERSON.html) 🆕 | pairing-dinner | South Florida Fairgrounds, West Palm Beach<br>_Palm Beach_ | $195 | Multi-course steak dinner by Evan Darnell with Dunbarton Tobacco & Trust's Steve Saka, debuting the Red Meat Lover's Sliders cigar; includes a three-cigar DT&T assortment. |
 | Sat Mar 20, 2027<br>1:00 PM – 5:00 PM (VIP from 12:00 PM) | [The Great Smoke 2027 (Arabian Nights)](https://www.thegreatsmoke.com/) 🆕 | festival | South Florida Fairgrounds, 9067 Southern Blvd, West Palm Beach<br>_Palm Beach_ | — | Smoke Inn's annual cigar festival. Weekend of Mar 18–21 adds a whiskey tasting, kickoff party (Aganorsa), Foundation night, Drew Estate tailgate, Room 101 after party, and Hooten Young brunch at Smoke Inn Boynton Beach. |
+
+### Date TBA
+
+| When | Event | Type | Where | Price | Details |
+|---|---|---|---|---|---|
+| Date TBA | [Whiskey & Cigar Pairing at City Cigar Lounge](https://www.eventbrite.com/e/1982800758444) 🆕 _(tentative)_ | pairing-dinner | City Cigar Lounge, Miami<br>_Miami-Dade_ | $100 tier / $325 tier | Bookable whiskey and cigar pairing; $100 tier (Weller Special Reserve, Antique 107, Stagg) and $325 tier adds Pappy Van Winkle 15. |

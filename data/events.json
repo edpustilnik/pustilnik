@@ -1,6 +1,6 @@
 [
   {
-    "id": "chamber-connections-cigar-night-espanola-2026-10-28",
+    "id": "chamber-connections-cigar-night-2026-10-28",
     "title": "Chamber Connections: October Cigar Night (Halloween edition)",
     "category": "social",
     "start_date": "2026-10-28",
@@ -16,7 +16,45 @@
     "status": "confirmed",
     "first_seen": "2026-10-26",
     "last_verified": "2026-10-26",
-    "notes": "Price not listed; registration via the chamber page."
+    "notes": "Confirmed on the chamber page. Price not listed; registration via the chamber page."
+  },
+  {
+    "price": null,
+    "time": "5:30 PM – 7:30 PM",
+    "status": "confirmed",
+    "first_seen": "2026-10-26",
+    "last_verified": "2026-10-26",
+    "notes": "The page is the Nov 21, 2024 event, not 2026 (checked 2026-10-26). No November 2026 cigar night listed; the chamber's Nov/Dec 2026 events are happy hours.",
+    "end_date": "2024-11-21",
+    "id": "chamber-connections-cigar-night-2026-11",
+    "title": "Chamber Connections Cigar Night (November 2024)",
+    "category": "social",
+    "start_date": "2024-11-21",
+    "venue": "Empire Social Cigar Lounge, 1106 S Miami Ave",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "url": "https://www.miamichamber.com/events/november-chamber-connections-cigar-night",
+    "source": "https://www.miamichamber.com/events/november-chamber-connections-cigar-night",
+    "description": "Greater Miami Chamber's monthly cigar networking night."
+  },
+  {
+    "price": "$100 tier / $325 tier",
+    "time": null,
+    "status": "tentative",
+    "first_seen": "2026-10-26",
+    "last_verified": "2026-10-26",
+    "notes": "Undated, bookable any time; Eventbrite page not fetchable so availability unconfirmed.",
+    "end_date": null,
+    "id": "city-cigar-lounge-whiskey-pairing",
+    "title": "Whiskey & Cigar Pairing at City Cigar Lounge",
+    "category": "pairing-dinner",
+    "start_date": null,
+    "venue": "City Cigar Lounge",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "url": "https://www.eventbrite.com/e/1982800758444",
+    "source": "https://www.eventbrite.com/e/1982800758444",
+    "description": "Bookable whiskey and cigar pairing; $100 tier (Weller Special Reserve, Antique 107, Stagg) and $325 tier adds Pappy Van Winkle 15."
   },
   {
     "id": "art-of-pairing-oak-ember-belgrove-2026-11-19",
