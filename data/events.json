@@ -55,5 +55,24 @@
     "url": "https://www.eventbrite.com/e/1982800758444",
     "source": "https://www.eventbrite.com/e/1982800758444",
     "description": "Bookable whiskey and cigar pairing; $100 tier (Weller Special Reserve, Antique 107, Stagg) and $325 tier adds Pappy Van Winkle 15."
+  },
+  {
+    "id": "oak-ember-pairing-belgrove-2026-11-19",
+    "title": "The Art of Pairing: Oak & Ember from Barrel to Glass",
+    "category": "pairing-dinner",
+    "start_date": "2026-11-19",
+    "end_date": "2026-11-19",
+    "time": "6:00 PM – 8:00 PM",
+    "venue": "The Belgrove Resort & Spa (Society 48 Dining Room)",
+    "city": "West Palm Beach",
+    "county": "Palm Beach",
+    "price": "From $45 (18+)",
+    "url": "https://www.resortpass.com/experiences/event-3241856",
+    "source": "https://www.resortpass.com/experiences/event-3241856",
+    "description": "Woodinville Whiskey-hosted guided bourbon and rye tasting with culinary pairing and a curated cigar pairing.",
+    "status": "tentative",
+    "first_seen": "2026-10-27",
+    "last_verified": "2026-10-27",
+    "notes": "Details from search summary only (fetch failed); venue city/address unconfirmed."
   }
 ]
